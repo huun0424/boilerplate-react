@@ -1,4 +1,4 @@
-import useAgifyQuery from 'src/queries/useAgifyQuery';
+import useAgifyQuery from 'src/apis/queries/useAgifyQuery';
 
 const TanstackPage = () => {
   const { data } = useAgifyQuery('dave');
