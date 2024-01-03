@@ -1,12 +1,11 @@
-/** @jsxImportSource @emotion/react */
-import { css } from '@emotion/react';
-
-const titleStyle = () => css`
-  color: blue;
-`;
+import Router from './Router';
 
 function App() {
-  return <div css={titleStyle}>react init!</div>;
+  return (
+    <>
+      <Router />
+    </>
+  );
 }
 
 export default App;
